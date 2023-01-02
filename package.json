@@ -1,0 +1,20 @@
+{
+  "name": "express_typescript_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurosawa-kuro/express_typescript_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurosawa-kuro/express_typescript_template/issues"
+  },
+  "homepage": "https://github.com/kurosawa-kuro/express_typescript_template#readme"
+}
