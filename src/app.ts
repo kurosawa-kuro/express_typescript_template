@@ -1,7 +1,5 @@
 import express, { Request, Response } from 'express';
 
-
-
 import setupLibrary from "./setupLibrary";
 
 const app = express();
