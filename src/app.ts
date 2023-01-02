@@ -1,7 +1,11 @@
 import express, { Request, Response } from 'express';
+import logger from "morgan";
 import cors from 'cors';
 
 const app = express();
+
+app.use(logger("dev"));
+
 app.use(cors({
     credentials: true,
     origin: ["http://localhost:3000"]
