@@ -2,10 +2,13 @@ import request from "supertest";
 
 import app from "../../src/app";
 
-describe("Test app.ts", () => {
-    test("index route", async () => {
+describe("Top route", () => {
+    test("Top route index action", async () => {
         const res = await request(app).get("/");
-        console.log('res.body', res.body)
+        // console.log('res', res)
+        // console.log('res.statusCode', res.statusCode)
+        // console.log('res.body', res.body)
+        expect(res.statusCode).toEqual(200);
         expect(res.body).toEqual({ message: "Hello World" });
     });
 });
