@@ -1,11 +1,10 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import logger from "morgan";
 import cors from 'cors';
 import swaggerUi from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";
 
-function setupLibrary(app: any) {
-    // console.log({ app })
+function setupLibrary(app: express.Express) {
     app.use(logger("dev"));
 
     app.use(cors({
